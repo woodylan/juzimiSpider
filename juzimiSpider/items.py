@@ -11,4 +11,6 @@ import scrapy
 class JuzimispiderItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    content = scrapy.Field()
+    author = scrapy.Field()
+    book = scrapy.Field()
